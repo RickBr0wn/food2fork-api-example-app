@@ -1,28 +1,43 @@
-.App {
-  text-align: center;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+html {
+  font-size: 62.5%;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+body {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
-.App-title {
-  font-size: 1.5em;
+
+
+/* Helper Classes */
+.u-center-text {
+  text-align: center !important; 
 }
 
-.App-intro {
-  font-size: large;
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; 
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; 
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; 
+}
+
+.u-margin-top-big {
+  margin-top: 8rem !important; 
+}
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; 
 }
