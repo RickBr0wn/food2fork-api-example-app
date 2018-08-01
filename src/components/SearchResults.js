@@ -9,7 +9,7 @@ const SearchResults = props => {
         recipes.map((recipe, id) => {
           const number = recipe.social_rank.toFixed(2)
           return(
-            <a href={recipe.f2f_url} key={id} className="card">
+            <a href={recipe.source_url} key={id} className="card">
               <img src={recipe.image_url} className="card-image" alt="food" />
               {/* <button className="view-button">View Recipe</button> */}
               <div className="recipe-data">
